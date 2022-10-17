@@ -1,1 +1,1 @@
-# Estudando Java
+# Exercícos realizados para estudo de Java
