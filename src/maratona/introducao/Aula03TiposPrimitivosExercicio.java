@@ -14,7 +14,7 @@ public class Aula03TiposPrimitivosExercicio {
 
         System.out.print("Digite o valor do salário recebido: ");
         String salario = scanner.next();
-        scanner.nextLine(); // Consumir a nova linha pendente
+
 
         System.out.print("Digite a data que recebeu o salário: ");
         String data = scanner.next();
