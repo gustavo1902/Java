@@ -8,6 +8,6 @@ public class JogadorTest02 {
         Jogador jogador1 = new Jogador("D");
         Time time = new Time("E");
 
-        jogador1.setTime();
+        jogador1.setTime(time);
     }
 }
