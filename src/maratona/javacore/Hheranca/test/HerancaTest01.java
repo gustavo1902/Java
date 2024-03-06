@@ -8,7 +8,7 @@ public class HerancaTest01 {
         Endereco endereco = new Endereco("Rua 2", "012346-789");
         Pessoa pessoa = new Pessoa();
         pessoa.setNome("Zeca");
-        pessoa.setCpf("111111111");
+        pessoa.setCpf("4111115555");
         pessoa.setEndereco(endereco);
     }
 }
