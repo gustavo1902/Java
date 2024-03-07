@@ -8,6 +8,7 @@ public class Aula04Operadores {
         int numero02 = 20;
         int resultado = numero02 / numero01;
         System.out.println("Valor "+ resultado);
+        System.out.println(numero01+numero02);
 
         // %
         int resto = 20 % 2;
@@ -26,7 +27,7 @@ public class Aula04Operadores {
         // && (AND) || (OR) ! (NOT)
         int idade = 35;
         float salario = 3500F;
-        boolean isDentroDaLeiMaiorQueTrinta = idade > 30 && salario > 4612;
+        boolean isDentroDaLeiMaiorQueTrinta = idade >= 30 && salario >= 4612;
         boolean isDentroDaLeiMenorQueTrinta = idade < 30 && salario >= 3381;
 
         System.out.println(isDentroDaLeiMaiorQueTrinta);
@@ -38,11 +39,11 @@ public class Aula04Operadores {
         boolean isPlaystationCincoCompravel= valorTotalContaCorrente > valorPlaystation || valorTotalContaPoupanca > valorPlaystation;
         System.out.println(isPlaystationCincoCompravel);
 
-        // =, += -= *= /= %=
+        // = += -= *= /= %=
         double bonus = 1800;
         bonus += 1000;
         System.out.println(bonus);
-        // ++
+        // ++ --
         int contador = 1;
         contador++;
         System.out.println(contador);
