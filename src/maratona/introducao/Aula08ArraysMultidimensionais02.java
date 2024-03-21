@@ -9,10 +9,17 @@ public class Aula08ArraysMultidimensionais02 {
         arrayInt[2]=new int[]{1,2,3,4,5};
         int[][] arrayInt2={{0,0},{1,2,3},{1,2,3,4,5,6}};
 
-        for (int[]arrayBase:arrayInt){
+        for (int[] arrayBase : arrayInt) {
             System.out.println("\n------");
-            for(int num: arrayBase){
-                System.out.println(num+"");
+            for (int num : arrayBase) {
+                System.out.print(num + " ");
+            }
+        }
+        System.out.println("\n\nImprimindo o segundo array:");
+        for (int[] arrayBase1 : arrayInt2) {
+            System.out.println("\n------");
+            for (int num : arrayBase1) {
+                System.out.print(num + " ");
             }
         }
     }
